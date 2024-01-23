@@ -1,2 +1,17 @@
 #!/bin/bash
-gcc -S $CFILE
+
+# Get the C file name from the variable
+CFILE="main.c"
+
+# Generate the output file name with .s extension
+OUTPUT_FILE="${CFILE%.c}.s"
+
+# Compile the C code to assembly using GCC
+gcc -S "$CFILE" -o "$OUTPUT_FILE"
+
+# Check if compilation was successful
+if [ $? -eq 0 ]; then
+    echo "Assembly code generated successfully. Output file: $OUTPUT_FILE"
+else
+    echo "Error: Compilation failed."
+fi
