@@ -1,2 +1,2 @@
 #!/bin/bash
-CFILE="main.c" && OUTPUT_FILE="${CFILE%.c}.s" && gcc -S "$CFILE" -o "$OUTPUT_FILE" && echo "Assembly code generated successfully. Output file: $OUTPUT_FILE" || echo "Error: Compilation failed."
+CFILE="main.c" && OUTPUT_FILE="${CFILE%.c}.s" && gcc -S "$CFILE" -o "$OUTPUT_FILE" && echo "Assembly code generated successfully. Output file: main.s" || echo "Error: Compilation failed."
