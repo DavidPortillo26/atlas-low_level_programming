@@ -21,5 +21,5 @@ int mul(int a, int b)
 		b--;
 	}
 
-	return sign * result;
+	return (sign * result);
 }
