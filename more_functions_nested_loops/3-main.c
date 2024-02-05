@@ -1,4 +1,4 @@
-#include "print_numbers.h"
+#include "main.h"
 
 /**
  * main - check the code
