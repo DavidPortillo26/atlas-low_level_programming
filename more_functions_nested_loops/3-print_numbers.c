@@ -12,8 +12,6 @@ for (digit = '0'; digit <= '9'; digit++)
 {
 _putchar(digit);
 if (digit != '9')
-_putchar(' ');
-}
-
 _putchar('\n');
+}
 }
