@@ -1,12 +1,13 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
- * main - Entry point
+ * main - Write a program that prints the number of arguments passed into it
  *
- * @argc: Counts the number of parameters that go into main
- * @argv: Pointer of array of pointers containing strings entering main
- * Return: Always 0 (Success)
+ * @args: This is the argument count
+ * @argv: This is the argument vector
+ *
+ * Return: This return to 0
+ *
  */
 int main(int args, char *argv[])
 {
